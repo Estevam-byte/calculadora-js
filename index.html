@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudando JS</title>
+  </head>
+  <link rel="stylesheet" href="css/index.css" />
+  <body>
+    <img src="imagens/GIF.CALCULADORA.gif" alt="GIF da Calculadora" />
+
+    <h2>Calculadora Simples</h2>
+
+    <div class="rodape-gifs">
+      <img
+        src="imagens/Einteingif.gif"
+        alt="GIF esquerdo"
+        class="gif-rodape"
+      />
+      <img src="imagens/BlackGuyThinking.gif" alt="GIF direito" class="gif-rodape" />
+    </div>
+
+    <input type="number" id="num1" placeholder="Primeiro número" />
+    <select id="operacao">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">x</option>
+      <option value="÷">÷</option>
+    </select>
+    <input type="number" id="num2" placeholder="Segundo número" />
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
